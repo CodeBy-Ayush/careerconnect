@@ -1,0 +1,70 @@
+:root {
+    --cc-primary: #2563eb;
+    /* Blue 600 */
+    --cc-primary-dk: #1d4ed8;
+    /* Blue 700 — hover */
+    --cc-secondary: #7c3aed;
+    /* Violet 600 */
+    --cc-surface: #f8fafc;
+    /* Slate 50 */
+    --cc-border: #e2e8f0;
+    /* Slate 200 */
+    --cc-text: #0f172a;
+    /* Slate 900 */
+    --cc-text-muted: #64748b;
+    /* Slate 500 */
+    --cc-success: #16a34a;
+    --cc-warning: #d97706;
+    --cc-danger: #dc2626;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--cc-text);
+    background-color: var(--cc-surface);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: var(--cc-primary);
+    border-color: var(--cc-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--cc-primary-dk);
+    border-color: var(--cc-primary-dk);
+}
+
+
+/* Sidebar Active State */
+
+.sidebar-link {
+    color: var(--cc-text-muted);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 0.25rem;
+}
+
+.sidebar-link:hover {
+    background-color: #e2e8f0;
+    color: var(--cc-text);
+}
+
+.sidebar-link.active {
+    background-color: rgba(37, 99, 235, 0.1);
+    color: var(--cc-primary);
+    border-left: 3px solid var(--cc-primary);
+    border-radius: 0 6px 6px 0;
+}
