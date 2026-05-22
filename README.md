@@ -41,7 +41,7 @@ The platform automates career discovery by matching users with relevant jobs and
 * Fully responsive modern interface built with Bootstrap 5.
 * Optimized for desktop, tablet, and mobile devices.
 
----
+----
 
 # 🛠️ Tech Stack
 
@@ -56,7 +56,7 @@ The platform automates career discovery by matching users with relevant jobs and
 | SMTP / Mailtrap | Email Notification System          |
 | Alpine.js       | Lightweight Frontend Interactivity |
 
----
+----
 
 # 📂 Project Architecture
 
