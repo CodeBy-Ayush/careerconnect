@@ -3,7 +3,7 @@
 CareerConnect is a modern intelligent job and course matching platform built with Laravel 12.
 The platform automates career discovery by matching users with relevant jobs and learning opportunities based on their professional skills, interests, and career goals.
 
----
+----
 
 # ✨ Features
 
