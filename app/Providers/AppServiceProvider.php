@@ -9,6 +9,6 @@ class AppServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        // Job::observe(JobObserver::class);
+        // Job::observe(JobObserver::class); not using
     }
 }
