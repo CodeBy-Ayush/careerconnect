@@ -5,7 +5,7 @@ use App\Http\Controllers\{HomeController, Auth\LoginController, Auth\RegisterCon
 use App\Http\Controllers\User\{DashboardController, ProfileController, ResumeController, JobController, ApplicationController};
 use App\Http\Controllers\Admin\{AdminDashboardController, AdminJobController, AdminCourseController, AdminUserController};
 
-// Public Routes
+// Public Route
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/jobs', [JobController::class, 'index'])->name('jobs.index');
 Route::get('/jobs/{slug}', [JobController::class, 'show'])->name('jobs.show');
