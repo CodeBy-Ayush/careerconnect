@@ -16,7 +16,7 @@
         <!-- Sidebar -->
         @include('partials.sidebar')
 
-        <!-- Main Content -->
+        <!-- Main Content ---->
         <div class="flex-grow-1 d-flex flex-column" style="overflow-x: hidden;">
             <!-- Top Navbar -->
             @include('partials.topbar')
